@@ -1,0 +1,9 @@
+[package]
+name = "Plane"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "Plane_Primitive"
+crate-type = ["dylib"]
+path = "src/lib.rs"

@@ -1,0 +1,129 @@
+{
+    "camera": {
+        "resolution": {
+            "width": 1920,
+            "height": 1080
+        },
+        "position": {
+            "x": 0,
+            "y": -100,
+            "z": 0
+        },
+        "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "fieldOfView": 72.0
+    },
+    "primitives": {
+        "spheres": [
+            {
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "r": 100,
+                "color": {
+                    "r": 64,
+                    "g": 255,
+                    "b": 64
+                },
+                "material": {
+                    "reflectiveness": 0.0
+                },
+                "transform": {
+                    "translation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    },
+                    "rotation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    },
+                    "scale": 1.0
+                }
+            }
+        ],
+        "planes": [
+            {
+                "axis": "Z",
+                "position": 0,
+                "color": {
+                    "r": 64,
+                    "g": 64,
+                    "b": 255
+                },
+                "material": {
+                    "reflectiveness": 0.0,
+                    "pattern": "chessboard"
+                }
+            }
+        ],
+        "cylinders": [
+            {
+                "x": 1,
+                "y": 50,
+                "z": 1,
+                "r": 20,
+                "axis":"X",
+                "h": 500,
+                "color": {
+                    "r": 12,
+                    "g": 145,
+                    "b": 90
+                    }
+            }
+        ],
+        "cones": [
+            {
+                "x": 1,
+                "y": 50,
+                "z": 1,
+                "r": 20,
+                "axis":"X",
+                "h": 500,
+                "color": {
+                    "r": 12,
+                    "g": 145,
+                    "b": 90
+                    }
+            }
+        ]
+    },
+    "lights":
+    {
+        "ambient": 0.4,
+        "diffuse": 0.6,
+        "specular": 0.5,
+        "point": [
+            {
+                "x": 150,
+                "y": -50,
+                "z": 0,
+                "color": {
+                    "x": 255,
+                    "y": 255,
+                    "z": 255
+                },
+                "intensity": 1.0
+            }
+        ],
+        "directional": [
+            {
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "color": {
+                    "r": 255,
+                    "g": 255,
+                    "b": 255
+                },
+                "intensity": 1.0
+            }
+        ]
+    }
+}

@@ -1,0 +1,6 @@
+raytracer
+target/
+*.ppm
+.vscode
+*.lock
+*.so
